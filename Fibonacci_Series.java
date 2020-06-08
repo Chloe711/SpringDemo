@@ -1,14 +1,12 @@
 package coreJava;
-import java.util.Scanner;
+
 
 public class Fibonacci_Series {
 
 	public static void main(String[] args) {
 
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter an integer for Fibinacci series: ");
-
-		System.out.print(findFibonacciSeries(sc.nextInt()));
+		
+		System.out.print(findFibonacciSeries(5));
 	}
 
 	public static int findFibonacciSeries(int n) {
